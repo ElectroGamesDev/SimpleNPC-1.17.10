@@ -1,0 +1,34 @@
+name: SimpleNPC
+main: brokiem\snpc\SimpleNPC
+version: 2.1.6-dev
+api: 3.20.0
+author: brokiem
+
+mcpe-protocol: [ 448 ]
+
+extensions:
+  Core: '>=7.4'
+
+website: https://github.com/brokiem/SimpleNPC/
+
+permissions:
+  simplenpc.spawn:
+    default: op
+  simplenpc.edit:
+    default: op
+  simplenpc.id:
+    default: op
+  simplenpc.notify:
+    default: op
+  simplenpc.ui:
+    default: op
+  simplenpc.reload:
+    default: op
+  simplenpc.remove:
+    default: op
+  simplenpc.migrate:
+    default: op
+  simplenpc.list:
+    default: op
+  simplenpc.rca:
+    default: op
