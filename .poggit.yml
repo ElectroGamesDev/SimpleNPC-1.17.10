@@ -1,0 +1,14 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ElectroGamesYT/SimpleNPC-1.17.10
+build-by-default: true
+branches:
+- main
+projects:
+  SimpleNPC-1.17.10:
+    path: ""
+    icon: "/assets/image.png"
+    libs:
+      - src: brokiem-pm-pl/EasyUI/libEasyUI
+        version: 2.0.0
+    lint:
+      phpstan: false
+...
